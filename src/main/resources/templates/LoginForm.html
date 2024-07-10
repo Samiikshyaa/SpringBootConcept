@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https:/www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LogIn</title>
+</head>
+<body>
+    <h1  align="center">InfoDevelopers Pvt. Ltd.</h1>
+    <h3 align="center">Sanepa-2, Lalitpur</h3>
+    <hr>
+    <h1 align="centre">LogIn</h1>
+    <form action="" method="post">
+      <p style="color: red;">[[${error}]]</p>
+      E-mail: <input type="email" name="email"><br><br>
+      Password: <input type="password" name="password"><br><br>
+      <input type="submit" name="login" value="Login">
+    </form><br>
+    New User? <a href="/signup">SignUp</a>
+</body>
+</html>
